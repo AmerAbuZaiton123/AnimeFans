@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 language = "html css js"
+=======
+language = "html"
+>>>>>>> be15dc903c8e50ef1e4deb4df5ed0db4d3a71fcf
 run = ""
