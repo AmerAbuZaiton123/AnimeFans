@@ -25,6 +25,14 @@ comprasion operators
 
 1 == 1 , 1 != 2 , 1 > 6 
 
+== -> compare the value , 1 == 1 , 10 == "10" , true
+
+=== - > compare the value and data type
+"10" === 10 -> false 
+10 === 10 -> true 
+
+
+
 assigmnet op
 
 =
@@ -35,6 +43,7 @@ variables /store data inside of them
 var firstName = "Ahmad"
 
 var x = 1
+ var isGreater = true
 
 var x 
  x = 10
@@ -161,4 +170,186 @@ esle {
 // }
 
 
-console.log(1 === "1")
+// console.log(1 === "1")
+
+// alert("the message i want ")
+
+// var name = prompt("what is your name ?")
+
+// // console.log(name)
+// if (name == "marah"){
+//   alert("welcome " + name)
+// }
+// else{
+//   alert("you are not welcome ")
+// }
+
+
+/*
+
+logical operators
+
+and or not  => && , ||, !
+
+this atat && this 
+
+truth table :
+
+true && true - > true 
+true && fasle -> false
+true || true -> true 
+true || false -> true 
+
+!true -> false 
+!false -> true 
+
+
+loops
+
+to repeat smth 
+var count = 0 
+count = count + 1 , count += 1
+count = count + 1 
+
+count = count + 1
+count = count + 1
+
+for loop 
+
+for(initial value , condition , counter){
+  statmet to repeat 
+}
+
+
+while loop 
+
+
+ */
+
+//logical op
+
+
+// var guessNum = prompt("Guess a number")
+
+// if (guessNum == 3 ){
+//   alert("you got the first guess right")
+// }
+// else if (guessNum > 3  && guessNum <= 5 ){
+//   alert("you guessed right the number wanted between 3 and 5 ")
+// }
+
+// else{
+//   alert("you are not lucky")
+
+// }
+
+// var count = 1 
+
+// console.log(count)
+// count +=1 
+// console.log(count)
+// var count = 0;
+// infinit loop the condition alwyas true
+// for( count ; count <10 || count > 4; count += 1){
+//   // if( count % 2 != 0){
+//   //   console.log(count)
+//   // }
+//   console.log(count)
+// }
+
+// count = 1
+// count = count + 1  , count += 3
+
+// count++ , +1
+
+
+
+// var x = prompt("how many times do you want to see hello on the page ")
+
+// for(var i = 0; i < x ; i++){
+//   if(x > 10)
+//   {
+//     i = x +1 
+// // break;
+//   }
+//   else{  document.write("<h3>" + "hello" + "</h3>")
+// }
+// }
+
+// for(var i = 0; i < x ; i++){
+//   document.write("<h3>" + "hello"  + "</h3>")
+// }
+
+
+//while loop 
+
+// var y = 10 
+
+// while(y < 20){
+
+// console.log(y)
+
+// y +=1
+
+// }
+
+// var guessNum = 10;
+
+// var ask =prompt("guess my fav number")
+//depend on attept 5 
+
+// for (var i = 0; i <5 ; i ++){
+//   if(ask != guessNum){
+//       ask =prompt("try agaon ")
+  
+// }
+// }
+// while(ask != guessNum){
+
+// ask= prompt("try again wrng answer")
+
+
+// }
+
+// alert("you guessed right it is 10 ")
+
+
+
+
+//Demo 
+
+
+
+var favAnime = prompt("what is your fav anime? (Hunter X Hunter , one Peace )")
+
+while(favAnime != "one peace" && favAnime != "Hunter X Hunter"){
+  favAnime = prompt("what is your fav anime? (Hunter X Hunter , one Peace )")
+}
+
+
+if( favAnime == "Hunter X Hunter" ){
+var times= prompt("how many time you wish  to it on my page ")
+
+for(var i = 0 ; i < times; i++) {
+document.write("<div>" + "<h3>" + favAnime +"</h3>" + "<img src='https://media.comicbook.com/2020/03/hunter-x-hunter-1209382-1280x0.jpeg' alt='Hunter X Hunter'>" + "</div>")
+}
+
+}
+else if (favAnime == "one peace"){
+  var times= prompt("how many time you wish  to it on my page ")
+while(times > 10){
+  times = prompt("please enter less than 10 time to see you fav anime")
+}
+for(var i = 0 ; i < times; i++) {
+document.write("<div>" + "<h3>" + favAnime +"</h3>" + "<img src='https://cdn.verasia.eu/14544/one-piece-wan-pisu-vol-96.jpg' alt='one peace'>" + "</div>")
+}
+}
+else{
+  alert("djjsjds")
+}
+
+
+// escape
+// var name = "ahmad  \" 'jasjad' "
+
+// var name = 'ahmad "nickname"  "jandja" ' 
