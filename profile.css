@@ -1,0 +1,19 @@
+body{
+  padding: 50px;
+}
+
+
+span {
+  background-color: #78d682; 
+}
+
+div{
+  background-color: #8686d0;
+}
+
+
+.spaceing {
+  border-style: solid;
+  padding: 3px;
+  margin: 20px;
+}
