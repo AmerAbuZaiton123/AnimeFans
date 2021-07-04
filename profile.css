@@ -17,3 +17,7 @@ div{
   padding: 3px;
   margin: 20px;
 }
+
+.pFromJS{
+  background-color: pink;
+}

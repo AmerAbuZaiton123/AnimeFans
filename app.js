@@ -322,6 +322,8 @@ while loop
 
 var favAnime = prompt("what is your fav anime? (Hunter X Hunter , one Peace )")
 
+function animeFunc() {
+
 while(favAnime != "one peace" && favAnime != "Hunter X Hunter"){
   favAnime = prompt("what is your fav anime? (Hunter X Hunter , one Peace )")
 }
@@ -347,7 +349,28 @@ document.write("<div>" + "<h3>" + favAnime +"</h3>" + "<img src='https://cdn.ver
 else{
   alert("djjsjds")
 }
+}
 
+animeFunc();
+
+
+
+var stars = prompt('How many stars do you rate our website ?')
+
+
+
+function starsFun(num){
+ var output = '' 
+for(var i = 0 ; i < num; i++) {
+  console.log(output);
+  output = output +  "<img src='https://i.pinimg.com/564x/7e/28/89/7e288947c2c179f39398a72fdad19e0c.jpg' alt='stars'>"
+}
+ 
+ return output;
+}
+
+
+document.write(starsFun(stars))
 
 // escape
 // var name = "ahmad  \" 'jasjad' "
